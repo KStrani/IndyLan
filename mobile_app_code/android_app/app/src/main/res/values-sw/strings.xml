@@ -1,0 +1,43 @@
+<resources>
+    <!-- Swedish -->
+    <string name="return1">Tillbaka</string>
+    <string name="retry">Försök igen</string>
+    <string name="tap_to_continue">Tryck för att fortsätta</string>
+    <string name="show_translation">Visa översättningen</string>
+
+    <string name="select_exercise_mode">Välj typ av övning</string>
+    <string name="select_category">Välj en kategori</string>
+    <string name="select_a_sub_category">Välj en underkategori </string>
+    <string name="choose_exercise_type">Välj typ av övning</string>
+
+    <string name="register">Registrera dig</string>
+    <string name="login">Logga in</string>
+    <string name="name">Namn</string>
+    <string name="email_address">E-postadress</string>
+    <string name="total_score_d_d">Totala poäng: %d/%d</string>
+    <string name="total_score_d">Totala poäng: %d</string>
+
+    <string name="no_internet_connection">Ingen internetanslutning</string>
+    <string name="something_went_wrong">Serverfel eller timeout</string>
+
+    <string name="congratulations">Grattis!</string>
+    <string name="task_completed_successfully">Uppgiften är slutförd på ett bra sätt</string>
+
+    <string name="choose_exercise_mode">Choose Exercise Mode</string>
+    <string name="choose_number_of_questions">Choose Number of Questions</string>
+
+    <string name="support_language">Support Language</string>
+    <string name="target_language">Target Language</string>
+    <string name="menu_language">Menu Language</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="start">Start</string>
+    <string name="no_data">No data</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+    <string name="audio_not_found">Audio file not found!</string>
+    <string name="show_correct_answer">Show Correct Answer</string>
+
+</resources>

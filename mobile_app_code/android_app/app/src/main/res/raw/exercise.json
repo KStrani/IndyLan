@@ -1,0 +1,188 @@
+{
+  "status": 1,
+  "message": "Record not found",
+  "message_en": "",
+  "result": [
+    {
+      "word_id": "46",
+      "image_file": "mole.jpg",
+      "word": "myyrä",
+      "word_english": "mole",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/mole_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/mole.jpg",
+      "option": "der Maulwurf"
+    },
+    {
+      "word_id": "35",
+      "image_file": "ferret.jpg",
+      "word": "fretti",
+      "word_english": "ferret",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/ferret_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/ferret.jpg",
+      "option": "das Frettchen"
+    },
+    {
+      "word_id": "36",
+      "image_file": "fox.jpg",
+      "word": "kettu",
+      "word_english": "fox",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/fox_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/fox.jpg",
+      "option": "der Fuchs"
+    },
+    {
+      "word_id": "40",
+      "image_file": "hare.jpg",
+      "word": "jänis",
+      "word_english": "hare",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/hare_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/hare.jpg",
+      "option": "der Hase"
+    },
+    {
+      "word_id": "48",
+      "image_file": "otter.jpg",
+      "word": "saukko",
+      "word_english": "otter",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/otter_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/otter.jpg",
+      "option": "der Otter"
+    },
+    {
+      "word_id": "34",
+      "image_file": "dog.jpg",
+      "word": "koira",
+      "word_english": "dog",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/dog_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/dog.jpg",
+      "option": "der Hund"
+    },
+    {
+      "word_id": "56",
+      "image_file": "wolverine.jpg",
+      "word": "ahma",
+      "word_english": "wolverine",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/wolverine_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/wolverine.jpg",
+      "option": "der Bärenmarder"
+    },
+    {
+      "word_id": "37",
+      "image_file": "groundhog.jpg",
+      "word": "murmeli",
+      "word_english": "groundhog",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/groundhog_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/groundhog.jpg",
+      "option": "das Murmeltier"
+    },
+    {
+      "word_id": "43",
+      "image_file": "marmot.jpg",
+      "word": "murmeli",
+      "word_english": "marmot",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/marmot_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/marmot.jpg",
+      "option": "das Murmeltier"
+    },
+    {
+      "word_id": "53",
+      "image_file": "squirrel.jpg",
+      "word": "orava",
+      "word_english": "squirrel",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/squirrel_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/squirrel.jpg",
+      "option": "das Eichhörnchen"
+    },
+    {
+      "word_id": "29",
+      "image_file": "badger.jpeg",
+      "word": "mäyrä",
+      "word_english": "badger",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/badger_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/badger.jpeg",
+      "option": "der Dachs"
+    },
+    {
+      "word_id": "44",
+      "image_file": "marten.jpg",
+      "word": "näätä",
+      "word_english": "marten",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/marten_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/marten.jpg",
+      "option": "der Mader"
+    },
+    {
+      "word_id": "52",
+      "image_file": "sheep.jpg",
+      "word": "lammas",
+      "word_english": "sheep",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/sheep_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/sheep.jpg",
+      "option": "das Schaf"
+    },
+    {
+      "word_id": "39",
+      "image_file": "hamster.jpg",
+      "word": "hamsteri",
+      "word_english": "hamster",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/hamster_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/hamster.jpg",
+      "option": "der Hamster"
+    },
+    {
+      "word_id": "31",
+      "image_file": "bear.jpg",
+      "word": "karhu",
+      "word_english": "bear",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/bear_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/bear.jpg",
+      "option": "der Bär"
+    },
+    {
+      "word_id": "54",
+      "image_file": "weasel.jpg",
+      "word": "lumikko",
+      "word_english": "weasel",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/weasel_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/weasel.jpg",
+      "option": "das Wiesel"
+    },
+    {
+      "word_id": "47",
+      "image_file": "mouse.jpg",
+      "word": "hiiri",
+      "word_english": "mouse",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/mouse_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/mouse.jpg",
+      "option": "die Maus"
+    },
+    {
+      "word_id": "51",
+      "image_file": "rat.jpg",
+      "word": "rotta",
+      "word_english": "rat",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/rat_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/rat.jpg",
+      "option": "die Ratte"
+    },
+    {
+      "word_id": "49",
+      "image_file": "rabbit.jpg",
+      "word": "kani",
+      "word_english": "rabbit",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/rabbit_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/rabbit.jpg",
+      "option": "das Kaninchen"
+    },
+    {
+      "word_id": "50",
+      "image_file": "raccoon.jpg",
+      "word": "pesukarhu",
+      "word_english": "raccoon",
+      "audio_file": "http://admin.movinglanguages.eu/fi/uploads/audio/95/78/raccoon_fi.m4a",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/words/95/78/raccoon.jpg",
+      "option": "der Waschbär"
+    }
+  ],
+  "status_message": "OK"
+}

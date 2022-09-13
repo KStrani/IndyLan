@@ -1,0 +1,43 @@
+<resources>
+    <!-- Finnish -->
+    <string name="return1">Takaisin</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="tap_to_continue">Napsauta jatkaaksesi</string>
+
+    <string name="select_exercise_mode">Valitse tehtävätyyppi</string>
+    <string name="select_category">Valitse kategoria</string>
+    <string name="select_a_sub_category">Valitse alakategoria</string>
+    <string name="choose_exercise_type">Valitse harjoituksen tyyppi</string>
+    <string name="show_translation">Tästä saat käännöksen</string>
+
+    <string name="register">Rekisteröidy</string>
+    <string name="login">Kirjaudu sisään</string>
+    <string name="name">Nimi</string>
+    <string name="email_address">Sähköpostiosoite</string>
+    <string name="total_score_d_d">Kokonaispisteet: %d/%d</string>
+    <string name="total_score_d">Kokonaispisteet: %d</string>
+
+    <string name="congratulations">Onnittelut!</string>
+    <string name="task_completed_successfully">Olet suorittanut tehtävän onnistuneesti</string>
+
+    <string name="no_internet_connection">Ei internetyhteyttä</string>
+    <string name="something_went_wrong">Palvelinvirhe tai aikakatkaisu</string>
+
+    <string name="choose_exercise_mode">Choose Exercise Mode</string>
+    <string name="choose_number_of_questions">Choose Number of Questions</string>
+
+    <string name="support_language">Support Language</string>
+    <string name="target_language">Target Language</string>
+    <string name="menu_language">Menu Language</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="start">Start</string>
+    <string name="no_data">No data</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+    <string name="audio_not_found">Audio file not found!</string>
+    <string name="show_correct_answer">Show Correct Answer</string>
+
+</resources>

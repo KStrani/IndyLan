@@ -1,0 +1,6 @@
+framework module Pods_Indylan {
+  umbrella header "Pods-Indylan-umbrella.h"
+
+  export *
+  module * { export * }
+}

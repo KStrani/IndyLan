@@ -1,0 +1,164 @@
+{
+  "status": 1,
+  "message": "Record not found",
+  "message_en": "",
+  "result": [
+    {
+      "source_language_id": "1",
+      "language_name": "English",
+      "language_code": "en",
+      "field_name": "word_english"
+    },
+    {
+      "source_language_id": "8",
+      "language_name": "finnish",
+      "language_code": "fi",
+      "field_name": "word_finnish"
+    },
+    {
+      "source_language_id": "9",
+      "language_name": "swedish",
+      "language_code": "sw",
+      "field_name": "word_swedish"
+    },
+    {
+      "source_language_id": "10",
+      "language_name": "german",
+      "language_code": "de",
+      "field_name": "word_german"
+    },
+    {
+      "source_language_id": "11",
+      "language_name": "italian",
+      "language_code": "it",
+      "field_name": "word_italian"
+    },
+    {
+      "source_language_id": "12",
+      "language_name": "spanish",
+      "language_code": "es",
+      "field_name": "word_spanish"
+    },
+    {
+      "source_language_id": "13",
+      "language_name": "russian",
+      "language_code": "ru",
+      "field_name": "word_russian"
+    },
+    {
+      "source_language_id": "14",
+      "language_name": "portuguese",
+      "language_code": "pt",
+      "field_name": "word_portuguese"
+    },
+    {
+      "source_language_id": "15",
+      "language_name": "french",
+      "language_code": "fr",
+      "field_name": "word_french"
+    },
+    {
+      "source_language_id": "16",
+      "language_name": "arabic",
+      "language_code": "ar",
+      "field_name": "word_arabic"
+    },
+    {
+      "source_language_id": "17",
+      "language_name": "estonian",
+      "language_code": "est",
+      "field_name": "word_estonian"
+    },
+    {
+      "source_language_id": "18",
+      "language_name": "serbian",
+      "language_code": "sr",
+      "field_name": "word_serbian"
+    },
+    {
+      "source_language_id": "19",
+      "language_name": "croatian",
+      "language_code": "cr",
+      "field_name": "word_croatian"
+    },
+    {
+      "source_language_id": "20",
+      "language_name": "bulgarian",
+      "language_code": "bg",
+      "field_name": "word_bulgarian"
+    },
+    {
+      "source_language_id": "21",
+      "language_name": "chinese",
+      "language_code": "chi",
+      "field_name": "word_chinese"
+    },
+    {
+      "source_language_id": "22",
+      "language_name": "hungarian",
+      "language_code": "hu",
+      "field_name": "word_hungarian"
+    },
+    {
+      "source_language_id": "23",
+      "language_name": "sorani",
+      "language_code": "sor",
+      "field_name": "word_sorani"
+    },
+    {
+      "source_language_id": "24",
+      "language_name": "punjabi",
+      "language_code": "pu",
+      "field_name": "word_punjabi"
+    },
+    {
+      "source_language_id": "25",
+      "language_name": "somali",
+      "language_code": "so",
+      "field_name": "word_somali"
+    },
+    {
+      "source_language_id": "26",
+      "language_name": "tigrigna",
+      "language_code": "ti",
+      "field_name": "word_tigrigna"
+    },
+    {
+      "source_language_id": "27",
+      "language_name": "urdu",
+      "language_code": "ur",
+      "field_name": "word_urdu"
+    },
+    {
+      "source_language_id": "28",
+      "language_name": "polish",
+      "language_code": "pl",
+      "field_name": "word_polish"
+    },
+    {
+      "source_language_id": "29",
+      "language_name": "turkish",
+      "language_code": "tr",
+      "field_name": "word_turkish"
+    },
+    {
+      "source_language_id": "30",
+      "language_name": "romanian",
+      "language_code": "ro",
+      "field_name": "word_romanian"
+    },
+    {
+      "source_language_id": "31",
+      "language_name": "ukrainian",
+      "language_code": "ukr",
+      "field_name": "word_ukrainian"
+    },
+    {
+      "source_language_id": "32",
+      "language_name": "albanian",
+      "language_code": "alb",
+      "field_name": "word_albanian"
+    }
+  ],
+  "status_message": "OK"
+}

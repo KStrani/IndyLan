@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner">8dp</dimen>
+    <dimen name="margin_start">30dp</dimen>
+    <dimen name="margin_end">30dp</dimen>
+    <dimen name="margin_recyclerview">10dp</dimen>
+</resources>

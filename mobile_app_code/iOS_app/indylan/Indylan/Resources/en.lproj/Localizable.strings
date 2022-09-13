@@ -1,0 +1,48 @@
+/*
+  Localizable.strings
+  Indylan
+
+  Created by Bhavik Thummar on 10/5/20.
+  Copyright © 2020 Bhavik Thummar. All rights reserved.
+*/
+
+"return"                = "RETURN";
+"chooseOption"          = "CHOOSE THE OPTION";
+"retry"                 = "RETRY";
+"next"                  = "NEXT";
+"continue"              = "CONTINUE";
+"correct"               = "CORRECT";
+"typeAnswer"            = "TYPE THE ANSWER";
+"showCorrectAnswer"     = "SHOW CORRECT ANSWER";
+"choosePicture"         = "CHOOSE THE PICTURE";
+"matchWords"            = "MATCH THE WORDS";
+"tapContinue"           = "TAP TO CONTINUE";
+"seeTranslation"        = "SEE TRANSLATION";
+"chooseMenuLanguage"    = "CHOOSE MENU LANGUAGE";
+"selectExercisemode"    = "SELECT EXERCISE MODE";
+"vocabulary"            = "Vocabulary";
+"dialogues"             = "Dialogues";
+"phrases"               = "Phrases & Word Combinations";
+"chooseCategory"        = "CHOOSE A CATEGORY";
+"chooseSubCategory"     = "CHOOSE A SUBCATEGORY";
+"chooseExerciseType"    = "CHOOSE EXERCISE TYPE";
+"greatJob"              = "Great Job!";
+"rateUsNow"             = "RATE US NOW!";
+"totalScore"            = "Total Score";
+"selectTranslation"     = "SELECT TRANSLATION";
+"congratulations"       = "Congratulations!";
+"taskCompleted"         = "Task Completed Successfully";
+"cultureHistory"        = "Culture and History";
+"grammar"               = "Grammar";
+"Aural Comprehension" = "Aural Comprehension";
+"Scroll down to see all language options" = "Scroll down to see all language options";
+
+
+"supportLanguage"       = "SELECT SUPPORT LANGUAGE";
+"targetLanguage"        = "SELECT TARGET LANGUAGE";
+"chooseNoQues"          = "SELECT NUMBER OF QUESTIONS";
+"test"                  = "Test";
+"selectExerciseType"    = "SELECT EXERCISE TYPE";
+"noInternet"            = "No Internet Connection";
+"urlLoadFailed"         = "Failed to load the URL";
+"note"                  = "NOTE";

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_back"
+            app:tint="@android:color/white" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@android:color/white"
+                tools:text="Title" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textViewSubTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:visibility="gone"
+                tools:text="Title" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageViewLogout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="7dp"
+            app:srcCompat="@drawable/ic_logout"
+            app:tint="@android:color/white" />
+
+        <!--<androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bg_circle_pink_border"
+            android:clickable="true"
+            android:elevation="@dimen/plane_04"
+            android:focusable="true"
+            android:padding="1dp"
+            app:srcCompat="@drawable/ic_profile"
+            tools:src="@drawable/ic_profile" />-->
+
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="32dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp"
+            android:adjustViewBounds="true"
+            android:elevation="@dimen/plane_04"
+            android:src="@drawable/ic_profile"
+            app:layout_constraintBottom_toTopOf="@+id/textInputEditTextTotalScore"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStart"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:siBorderAlpha="1.0"
+            app:siBorderColor="@color/colorGrey"
+            app:siBorderWidth="2dp"
+            app:siShape="@drawable/ic_profile"
+            app:siSquare="false" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

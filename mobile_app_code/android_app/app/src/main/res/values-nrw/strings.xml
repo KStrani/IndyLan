@@ -1,0 +1,43 @@
+<resources>
+    <!-- Norwegian -->
+    <string name="return1">Tilbake</string>
+    <string name="retry">Forsøk igjen</string>
+    <string name="tap_to_continue">Trykk for å fortsette</string>
+    <string name="show_translation">Vis oversettelse</string>
+
+    <string name="select_exercise_mode">Velg øvelsesmodus</string>
+    <string name="select_category">Velg en kategori</string>
+    <string name="select_a_sub_category">Velg en underkategori</string>
+    <string name="choose_exercise_type">Velg en øvelse</string>
+
+    <string name="register">Registrer</string>
+    <string name="login">Logg inn</string>
+    <string name="name">Navn</string>
+    <string name="email_address">E-postadresse</string>
+    <string name="total_score_d_d">Total score: %d/%d</string>
+    <string name="total_score_d">Total score: %d</string>
+
+    <string name="no_internet_connection">Ingen kontakt med internett</string>
+    <string name="something_went_wrong">Serverfeil eller timeout</string>
+
+    <string name="congratulations">Gratulerer!</string>
+    <string name="task_completed_successfully">Oppgaven ble godt utført</string>
+
+    <string name="choose_exercise_mode">Choose Exercise Mode</string>
+    <string name="choose_number_of_questions">Choose Number of Questions</string>
+
+    <string name="support_language">Support Language</string>
+    <string name="target_language">Target Language</string>
+    <string name="menu_language">Menu Language</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="start">Start</string>
+    <string name="no_data">No data</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+    <string name="audio_not_found">Audio file not found!</string>
+    <string name="show_correct_answer">Show Correct Answer</string>
+
+</resources>

@@ -1,0 +1,49 @@
+/*
+  Localizable.strings
+  Indylan
+
+  Created by Bhavik Thummar on 10/5/20.
+  Copyright © 2020 Bhavik Thummar. All rights reserved.
+*/
+
+"return"                = "назад";
+"chooseOption"          = "выберите опцию";
+"retry"                 = "повторить";
+"next"                  = "дальше";
+"continue"              = "продолжить";
+"correct"               = "правильно";
+"typeAnswer"            = "впишите ответ";
+"showCorrectAnswer"     = "посмотреть правильный ответ";
+"choosePicture"         = "выберите картинку";
+"matchWords"            = "объедините слова";
+"tapContinue"           = "продолжить";
+"seeTranslation"        = "Перевод";
+"chooseMenuLanguage"    = "Выберите язык меню";
+"selectExercisemode"    = "Выберите вид упражнений";
+"vocabulary"            = "Словарь";
+"dialogues"             = "Диалоги";
+"phrases"               = "Выражения";
+"chooseCategory"        = "Выберите категорию";
+"chooseSubCategory"     = "Выберите подкатегорию";
+"chooseExerciseType"    = "Выберите тип упражнений";
+"greatJob"              = "Отличная работа!";
+"rateUsNow"             = "Оцените нас!";
+"totalScore"            = "Общий счет";
+"selectTranslation"     = "Перевод";
+"congratulations"       = "Поздравляем!";
+"taskCompleted"         = "Упражнение успешно выполнено";
+"cultureHistory"        = "Культура и история";
+"grammar"               = "Грамматика";
+
+"Aural Comprehension" = "";
+
+"Scroll down to see all language options" = "";
+
+"supportLanguage"       = "SELECT SUPPORT LANGUAGE";
+"targetLanguage"        = "SELECT TARGET LANGUAGE";
+"chooseNoQues"          = "SELECT NUMBER OF QUESTIONS";
+"test"                  = "Test";
+"selectExerciseType"    = "SELECT EXERCISE TYPE";
+"noInternet"            = "No Internet Connection";
+"urlLoadFailed"         = "Failed to load the URL";
+"note"                  = "NOTE";

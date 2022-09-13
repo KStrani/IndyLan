@@ -1,0 +1,100 @@
+<resources>
+
+    <style name="AppTheme.Authentication" parent="Theme.App.DayNight">
+        <!--<item name="android:windowBackground">@drawable/bg_white</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>-->
+    </style>
+
+    <style name="AppTheme.Home" parent="Theme.App.DayNight">
+        <!--<item name="android:windowBackground">@drawable/bg_main</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>-->
+    </style>
+
+    <!-- Button Styles -->
+    <style name="AppTheme.Button.Base" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">?attr/textAppearanceButton</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="AppTheme.Button.Base">
+        <item name="android:textColor">?colorOnPrimary</item>
+    </style>
+
+    <style name="AppTheme.IconButton" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="android:textAppearance">?attr/textAppearanceButton</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="AppTheme.Button.Facebook" parent="AppTheme.IconButton">
+        <item name="backgroundTint">@color/colorFacebook</item>
+    </style>
+
+    <style name="AppTheme.Button.Google" parent="AppTheme.IconButton">
+        <item name="backgroundTint">@color/colorGoogle</item>
+    </style>
+
+    <style name="AppTheme.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textColor">@color/color_on_surface_emphasis_high</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!--
+        Bottom sheet dialog
+    -->
+    <style name="BottomSheetDialogStyle" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
+    </style>
+
+    <!-- CardView Styles -->
+    <style name="AppTheme.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:elevation">@dimen/plane_04</item>
+        <item name="android:background">@drawable/bg_card</item>
+    </style>
+
+    <!-- EditText Styles -->
+    <style name="AppTheme.TextInputEditText.Base" parent="Widget.AppCompat.EditText">
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="AppTheme.TextInputEditText" parent="AppTheme.TextInputEditText.Base">
+        <item name="android:background">@drawable/bg_text_box</item>
+        <item name="android:elevation">@dimen/plane_04</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="AppConstraintLayout">
+        <item name="android:elevation">@dimen/plane_08</item>
+        <item name="android:background">@drawable/bg_white_curved</item>
+    </style>
+
+    <!-- ProgressBar Styles -->
+    <style name="Widget.App.ProgressBar" parent="@android:style/Widget.DeviceDefault.ProgressBar">
+
+    </style>
+
+    <style name="Widget.App.ProgressBar.Small" parent="@android:style/Widget.DeviceDefault.ProgressBar.Small">
+
+    </style>
+
+    <!-- SnackBar Styles -->
+    <style name="SnackBar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="animationMode">slide</item>
+    </style>
+
+    <style name="SnackBar.Text" parent="Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+</resources>

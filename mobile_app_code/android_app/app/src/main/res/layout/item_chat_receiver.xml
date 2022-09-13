@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutSender"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_blue_chat"
+        android:elevation="@dimen/plane_04"
+        android:fontFamily="@font/century_gothic_regular"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="16sp"
+        tools:text="@tools:sample/full_names" />
+
+    <com.indylan.widget.AudioView
+        android:id="@+id/audioView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_foreground_audio"
+        android:padding="5dp"
+        android:stateListAnimator="@animator/selection"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_speaker"
+        app:tint="@color/colorPink"
+        tools:src="@drawable/ic_speaker"
+        tools:visibility="visible" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

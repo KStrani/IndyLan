@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellSpeaker2" rowHeight="93" id="KGk-i7-Jjw" customClass="CellSpeaker2" customModule="Indylan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qEB-Q3-TXb" customClass="CardView" customModule="Indylan" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="8" width="278" height="77"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jea-gB-XqL">
+                                <rect key="frame" x="10" y="10" width="258" height="57"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iag-30-a9X">
+                                        <rect key="frame" x="0.0" y="8.5" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="4uJ-ui-4ha"/>
+                                            <constraint firstAttribute="width" secondItem="iag-30-a9X" secondAttribute="height" multiplier="1:1" id="TzF-VC-DXT"/>
+                                        </constraints>
+                                        <state key="normal" image="speaker_on"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qrq-JS-JzU">
+                                        <rect key="frame" x="50" y="28.5" width="208" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jea-gB-XqL" firstAttribute="top" secondItem="qEB-Q3-TXb" secondAttribute="top" constant="10" id="71d-3h-hg0"/>
+                            <constraint firstItem="jea-gB-XqL" firstAttribute="centerY" secondItem="qEB-Q3-TXb" secondAttribute="centerY" id="KjV-IM-Umt"/>
+                            <constraint firstAttribute="bottom" secondItem="jea-gB-XqL" secondAttribute="bottom" constant="10" id="MEA-4Y-Wba"/>
+                            <constraint firstItem="jea-gB-XqL" firstAttribute="leading" secondItem="qEB-Q3-TXb" secondAttribute="leading" constant="10" id="pEp-yG-9TN"/>
+                            <constraint firstAttribute="trailing" secondItem="jea-gB-XqL" secondAttribute="trailing" constant="10" id="szX-g5-4Lf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qEB-Q3-TXb" secondAttribute="bottom" constant="8" id="3PU-nO-bxL"/>
+                    <constraint firstAttribute="trailing" secondItem="qEB-Q3-TXb" secondAttribute="trailing" constant="8" id="Bjw-uI-INY"/>
+                    <constraint firstItem="qEB-Q3-TXb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="VFM-th-JH7"/>
+                    <constraint firstItem="qEB-Q3-TXb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cav-Sz-usj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnAudio2" destination="iag-30-a9X" id="qke-xI-gEy"/>
+                <outlet property="contentView2" destination="qEB-Q3-TXb" id="4rF-2p-enk"/>
+                <outlet property="lblSpeaker2" destination="Qrq-JS-JzU" id="cPL-ZJ-O7e"/>
+            </connections>
+            <point key="canvasLocation" x="42" y="76.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="speaker_on" width="44" height="43.5"/>
+    </resources>
+</document>

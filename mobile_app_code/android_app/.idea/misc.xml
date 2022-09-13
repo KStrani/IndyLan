@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_answer_hint.xml" value="0.4078125" />
+        <entry key="app/src/main/res/drawable/bg_pink_border.xml" value="0.4078125" />
+        <entry key="app/src/main/res/drawable/bg_primary.xml" value="0.4078125" />
+        <entry key="app/src/main/res/drawable/bg_wrong_answer_transition.xml" value="0.2390625" />
+        <entry key="app/src/main/res/drawable/bg_yellow.xml" value="0.4078125" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.4078125" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/dialog_keyboard.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/dialog_notes.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_about_us.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_exercise.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_exercise_choose_image.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_exercise_choose_letter.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_exercise_dialog.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_exercise_fill_gap.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_exercise_flash_card.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_exercise_listening.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_exercise_matching.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_exercise_mode.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_exercise_mode_test.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_exercise_other.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_exercise_study.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_exercise_translation.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_exercise_type.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_exercise_word.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.3425925925925926" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.38564102564102565" />
+        <entry key="app/src/main/res/layout/fragment_task_complete.xml" value="0.3776041666666667" />
+        <entry key="app/src/main/res/layout/layout_toolbar.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

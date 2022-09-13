@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Final, top-level theme-->
+    <style name="Theme.App.DayNight" parent="Theme.App.Dark" />
+
+    <style name="Theme.App.Dark" parent="Theme.App">
+
+        <!--Color-->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">@color/primary</item>
+
+        <item name="android:colorBackground">@color/app_black_900</item>
+        <item name="colorSurface">@color/app_black_800</item>
+        <item name="colorPrimarySurfaceVariant">?attr/colorSurface</item>
+        <item name="colorError">@color/app_red_200</item>
+
+        <item name="colorOnPrimary">@color/app_black_900</item>
+        <item name="colorOnSecondary">@color/app_black_900</item>
+        <item name="colorOnBackground">@color/app_white_50</item>
+        <item name="colorOnSurface">@color/app_white_50</item>
+        <item name="colorOnError">@color/app_black_900</item>
+
+        <item name="scrimBackground">@color/app_black_900_alpha_087</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="elevationOverlayEnabled">true</item>
+
+        <!--System/Platform attributes-->
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+        <item name="snackbarStyle">@style/SnackBar</item>
+        <item name="snackbarTextViewStyle">@style/SnackBar.Text</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="ThemeOverlay.App" parent="@style/ThemeOverlay.MaterialComponents.Dark">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">#fff</item>
+    </style>
+
+</resources>

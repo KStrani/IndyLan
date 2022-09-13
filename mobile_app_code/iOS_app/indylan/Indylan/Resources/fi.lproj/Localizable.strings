@@ -1,0 +1,48 @@
+/*
+  Localizable.strings
+  Indylan
+
+  Created by Bhavik Thummar on 10/5/20.
+  Copyright © 2020 Bhavik Thummar. All rights reserved.
+*/
+
+"return"                = "Takaisin";
+"chooseOption"          = "Valitse vaihtoehto";
+"retry"                 = "Yritä uudelleen";
+"next"                  = "Seuraava";
+"continue"              = "Jatka";
+"correct"               = "Oikein";
+"typeAnswer"            = "Kirjoita vastaus";
+"showCorrectAnswer"     = "Katso oikea vastaus";
+"choosePicture"         = "Valitse kuva";
+"matchWords"            = "Yhdistä sanat";
+"tapContinue"           = "Napsauta jatkaaksesi";
+"seeTranslation"        = "Tästä saat käännöksen";
+"chooseMenuLanguage"    = "Valitse valikon kieli";
+"selectExercisemode"    = "Valitse tehtävätyyppi";
+"vocabulary"            = "Sanasto";
+"dialogues"             = "Dialogit";
+"phrases"               = "Lauseet";
+"chooseCategory"        = "Valitse kategoria";
+"chooseSubCategory"     = "Valitse alakategoria";
+"chooseExerciseType"    = "Valitse harjoituksen tyyppi";
+"greatJob"              = "Hyvin tehty!";
+"rateUsNow"             = "Jätä meille arvostelu!";
+"totalScore"            = "Kokonaispisteet";
+"selectTranslation"     = "Valitse käännös";
+"congratulations"       = "Onnittelut!";
+"taskCompleted"         = "Olet suorittanut tehtävän onnistuneesti";
+"cultureHistory"        = "Kulttuuri ja historia";
+"grammar"               = "Kielioppi";
+
+"Aural Comprehension" = "Kuullunymmärtäminen";
+"Scroll down to see all language options" = "Vieritä alas nähdäksesi kaikki kielivaihtoehdot";
+
+"supportLanguage"       = "SELECT SUPPORT LANGUAGE";
+"targetLanguage"        = "SELECT TARGET LANGUAGE";
+"chooseNoQues"          = "SELECT NUMBER OF QUESTIONS";
+"test"                  = "Test";
+"selectExerciseType"    = "SELECT EXERCISE TYPE";
+"noInternet"            = "No Internet Connection";
+"urlLoadFailed"         = "Failed to load the URL";
+"note"                  = "NOTE";

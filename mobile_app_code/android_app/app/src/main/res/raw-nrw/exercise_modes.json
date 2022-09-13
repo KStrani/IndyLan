@@ -1,0 +1,41 @@
+{
+  "status": 1,
+  "message": "Success",
+  "result": [
+    {
+      "id": "1",
+      "mode_name": "Vokabular",
+      "icon": "vocabulary"
+    },
+    {
+      "id": "2",
+      "mode_name": "Dialoger",
+      "icon": "dialogues"
+    },
+    {
+      "id": "3",
+      "mode_name": "Fraser",
+      "icon": "phrases"
+    },
+    {
+      "id": "4",
+      "mode_name": "Grammatikk",
+      "icon": "grammar"
+    },
+    {
+      "id": "5",
+      "mode_name": "Kultur og Historie",
+      "icon": "history"
+    },
+    {
+      "id": "6",
+      "mode_name": "Lytteøvelser",
+      "icon": "aural"
+    },
+    {
+      "id": "7",
+      "mode_name": "Test",
+      "icon": "test"
+    }
+  ]
+}

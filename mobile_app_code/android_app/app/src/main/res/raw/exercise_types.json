@@ -1,0 +1,44 @@
+{
+  "status": 1,
+  "message": "Record not found",
+  "message_en": "",
+  "result": [
+    {
+      "id": "8",
+      "type_name": "Flashcards",
+      "image": "flashcard",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/SFI_exercise_type_icons_flashcards.jpg"
+    },
+    {
+      "id": "1",
+      "type_name": "Select translation",
+      "image": "translation",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/SFI_exercise_type_icons_select_translation.jpg"
+    },
+    {
+      "id": "3",
+      "type_name": "Multiple choice with words",
+      "image": "choice",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/SFI_exercise_type_icons_multichoice_with_word.jpg"
+    },
+    {
+      "id": "7",
+      "type_name": "Matching",
+      "image": "matching",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/SFI_exercise_type_icons_matching.jpg"
+    },
+    {
+      "id": "4",
+      "type_name": "Choose the letters",
+      "image": "letters",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/SFI_exercise_type_icons_choose_the_letter.jpg"
+    },
+    {
+      "id": "5",
+      "type_name": "Write the word",
+      "image": "write",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/SFI_exercise_type_icons_write_the_word.jpg"
+    }
+  ],
+  "status_message": "OK"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellSelection" rowHeight="136" id="KGk-i7-Jjw" customClass="CellSingleSelection" customModule="Indylan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="136"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="136"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cO-uJ-gGp" customClass="CardView" customModule="Indylan" customModuleProvider="target">
+                        <rect key="frame" x="35" y="12" width="250" height="112"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ufI-VL-TQr">
+                                <rect key="frame" x="12" y="8" width="226" height="96"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4kt-5c-YRK">
+                                        <rect key="frame" x="0.0" y="25.5" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="4kt-5c-YRK" secondAttribute="height" multiplier="1:1" id="PpA-h4-FsQ"/>
+                                            <constraint firstAttribute="width" constant="45" id="kfd-Xr-QZQ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAf-Bl-rBu">
+                                        <rect key="frame" x="65" y="30.5" width="111" height="35"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipW-RZ-B1U" customClass="CosmosView" customModule="Indylan" customModuleProvider="target">
+                                        <rect key="frame" x="196" y="33" width="30" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ipW-RZ-B1U" secondAttribute="height" multiplier="1:1" id="pSr-Gw-DXA"/>
+                                            <constraint firstAttribute="width" constant="30" id="s2P-Xw-fO6"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="filledImage" value="full_star"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="empty_star"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ufI-VL-TQr" secondAttribute="trailing" constant="12" id="NNm-HO-XGq"/>
+                            <constraint firstItem="ufI-VL-TQr" firstAttribute="top" secondItem="4cO-uJ-gGp" secondAttribute="top" constant="8" id="kCK-Cc-6zt"/>
+                            <constraint firstItem="ufI-VL-TQr" firstAttribute="leading" secondItem="4cO-uJ-gGp" secondAttribute="leading" constant="12" id="mwd-YN-cT1"/>
+                            <constraint firstAttribute="bottom" secondItem="ufI-VL-TQr" secondAttribute="bottom" constant="8" id="tcx-S4-cOl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4cO-uJ-gGp" secondAttribute="trailing" constant="35" id="8ns-pX-FT8"/>
+                    <constraint firstItem="4cO-uJ-gGp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="ILb-jD-WTw"/>
+                    <constraint firstItem="RAf-Bl-rBu" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.11" id="OKj-Hn-l3O"/>
+                    <constraint firstAttribute="bottom" secondItem="4cO-uJ-gGp" secondAttribute="bottom" constant="12" id="SSv-77-Cj7"/>
+                    <constraint firstItem="4cO-uJ-gGp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="35" id="rK4-pD-xUg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgView" destination="4kt-5c-YRK" id="Qkz-WQ-X5L"/>
+                <outlet property="lblTitle" destination="RAf-Bl-rBu" id="AZO-ZP-fWt"/>
+                <outlet property="viewCellBg" destination="4cO-uJ-gGp" id="uAh-IP-ReG"/>
+                <outlet property="viewStar" destination="ipW-RZ-B1U" id="9P1-V9-arv"/>
+            </connections>
+            <point key="canvasLocation" x="100.8" y="180.80959520239881"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="empty_star" width="35.5" height="35.5"/>
+        <image name="full_star" width="35" height="35"/>
+    </resources>
+</document>

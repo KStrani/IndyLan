@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Motion-->
+    <integer name="app_motion_default_large">300</integer>
+    <integer name="app_motion_duration_medium">225</integer>
+    <integer name="app_motion_duration_small">175</integer>
+
+    <integer name="animation_duration">600</integer>
+    <integer name="splash_logo_duration">300</integer>
+</resources>

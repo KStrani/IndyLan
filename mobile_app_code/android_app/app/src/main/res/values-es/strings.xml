@@ -1,0 +1,43 @@
+<resources>
+    <!-- Spanish -->
+    <string name="return1">Atrás</string>
+    <string name="retry">Vuelve a intentarlo</string>
+    <string name="tap_to_continue">Pulsa para continuar</string>
+    <string name="show_translation">Obtén la traducción</string>
+
+    <string name="select_exercise_mode">Selecciona el tipo de ejercicio</string>
+    <string name="select_category">Elige una categoría</string>
+    <string name="select_a_sub_category">Elige una subcategoría</string>
+    <string name="choose_exercise_type">Elige un tipo de ejercicio</string>
+
+    <string name="register">Registro</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="name">Nombre</string>
+    <string name="email_address">Dirección email</string>
+    <string name="total_score_d_d">Puntuación total: %d/%d</string>
+    <string name="total_score_d">Puntuación total: %d</string>
+
+    <string name="no_internet_connection">No hay conexión a internet</string>
+    <string name="something_went_wrong">Error del servidor o tiempo de espera agotado</string>
+
+    <string name="congratulations">¡Enhorabuena!</string>
+    <string name="task_completed_successfully">Actividad completada con éxito</string>
+
+    <string name="choose_exercise_mode">Choose Exercise Mode</string>
+    <string name="choose_number_of_questions">Choose Number of Questions</string>
+
+    <string name="support_language">Support Language</string>
+    <string name="target_language">Target Language</string>
+    <string name="menu_language">Menu Language</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="start">Start</string>
+    <string name="no_data">No data</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+    <string name="audio_not_found">Audio file not found!</string>
+    <string name="show_correct_answer">Show Correct Answer</string>
+
+</resources>

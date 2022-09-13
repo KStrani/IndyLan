@@ -1,0 +1,41 @@
+{
+  "status": 1,
+  "message": "Success",
+  "result": [
+    {
+      "id": "1",
+      "mode_name": "Vocabulario",
+      "icon": "vocabulary"
+    },
+    {
+      "id": "2",
+      "mode_name": "Diálogos",
+      "icon": "dialogues"
+    },
+    {
+      "id": "3",
+      "mode_name": "Frases",
+      "icon": "phrases"
+    },
+    {
+      "id": "4",
+      "mode_name": "Gramática",
+      "icon": "grammar"
+    },
+    {
+      "id": "5",
+      "mode_name": "Cultura e Historia",
+      "icon": "history"
+    },
+    {
+      "id": "6",
+      "mode_name": "Comprensión auditiva",
+      "icon": "aural"
+    },
+    {
+      "id": "7",
+      "mode_name": "Test",
+      "icon": "test"
+    }
+  ]
+}
