@@ -1,0 +1,1 @@
+<?php header("Location: https://admin.indylan.eu/404"); ?>

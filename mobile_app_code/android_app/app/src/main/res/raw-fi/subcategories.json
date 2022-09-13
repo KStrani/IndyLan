@@ -1,0 +1,71 @@
+{
+  "status": 1,
+  "message": "Record not found",
+  "message_en": "",
+  "result": [
+    {
+      "exercise_mode_subcategory_id": "78",
+      "category_id": "95",
+      "difficulty_level_id": "1",
+      "image": "animals_in_europe.jpg",
+      "subcategory_name": "Animals in Europe",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/animals_in_europe.jpg",
+      "ratting": 0
+    },
+    {
+      "exercise_mode_subcategory_id": "79",
+      "category_id": "95",
+      "difficulty_level_id": "1",
+      "image": "animals_in_the_world.jpg",
+      "subcategory_name": "Animals in the world",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/animals_in_the_world.jpg",
+      "ratting": 0
+    },
+    {
+      "exercise_mode_subcategory_id": "80",
+      "category_id": "95",
+      "difficulty_level_id": "1",
+      "image": "animals_with_hooves.jpg",
+      "subcategory_name": "Animals with hooves",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/animals_with_hooves.jpg",
+      "ratting": 0
+    },
+    {
+      "exercise_mode_subcategory_id": "83",
+      "category_id": "95",
+      "difficulty_level_id": "3",
+      "image": "birds.jpg",
+      "subcategory_name": "Birds",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/birds.jpg",
+      "ratting": 0
+    },
+    {
+      "exercise_mode_subcategory_id": "84",
+      "category_id": "95",
+      "difficulty_level_id": "3",
+      "image": "insects.jpg",
+      "subcategory_name": "Insects",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/insects.jpg",
+      "ratting": 0
+    },
+    {
+      "exercise_mode_subcategory_id": "82",
+      "category_id": "95",
+      "difficulty_level_id": "2",
+      "image": "reptiles_and_amphibians.jpg",
+      "subcategory_name": "Reptiles and amphibians",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/reptiles_and_amphibians.jpg",
+      "ratting": 0
+    },
+    {
+      "exercise_mode_subcategory_id": "81",
+      "category_id": "95",
+      "difficulty_level_id": "2",
+      "image": "sea_animals_and_fish.jpg",
+      "subcategory_name": "Sea animals and fish",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/sea_animals_and_fish.jpg",
+      "ratting": 0
+    }
+  ],
+  "status_message": "OK"
+}

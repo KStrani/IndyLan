@@ -1,0 +1,43 @@
+<resources>
+    <!-- Russian -->
+    <string name="return1">назад</string>
+    <string name="retry">повторить</string>
+    <string name="tap_to_continue">продолжить</string>
+    <string name="show_translation">Перевод</string>
+
+    <string name="select_exercise_mode">Выберите вид упражнений</string>
+    <string name="select_category">Выберите категорию</string>
+    <string name="select_a_sub_category">Выберите подкатегорию</string>
+    <string name="choose_exercise_type">Выберите тип упражнений</string>
+
+    <string name="register">Зарегистрироваться</string>
+    <string name="login">Войти</string>
+    <string name="name">Имя</string>
+    <string name="email_address">Email</string>
+    <string name="total_score_d_d">Общий счет: %d/%d</string>
+    <string name="total_score_d">Общий счет: %d</string>
+
+    <string name="no_internet_connection">Нет подключения к интернету</string>
+    <string name="something_went_wrong">Ошибка сервера или время ожидания истекло</string>
+
+    <string name="congratulations">Поздравляем!</string>
+    <string name="task_completed_successfully">Упражнение успешно выполнено</string>
+
+    <string name="choose_exercise_mode">Choose Exercise Mode</string>
+    <string name="choose_number_of_questions">Choose Number of Questions</string>
+
+    <string name="support_language">Support Language</string>
+    <string name="target_language">Target Language</string>
+    <string name="menu_language">Menu Language</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="start">Start</string>
+    <string name="no_data">No data</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+    <string name="audio_not_found">Audio file not found!</string>
+    <string name="show_correct_answer">Show Correct Answer</string>
+
+</resources>

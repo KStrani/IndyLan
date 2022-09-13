@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutTaskComplete"
+        style="@style/AppConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_bottom_strip" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollTaskComplete"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintBottom_toTopOf="@+id/stripsView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guidelineStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="@dimen/margin_start" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guidelineEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_end="@dimen/margin_end" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textViewHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    app:layout_constraintBottom_toTopOf="@+id/textViewMessage"
+                    app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toEndOf="@+id/guidelineStart"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    tools:text="Congratulations" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textViewMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    app:layout_constraintBottom_toTopOf="@+id/ratingBar"
+                    app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toEndOf="@+id/guidelineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewHeading"
+                    tools:text="Task completed successfully" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:isIndicator="true"
+                    android:numStars="3"
+                    android:rating="3"
+                    android:stepSize="1"
+                    app:layout_constraintBottom_toTopOf="@+id/textViewTotalScore"
+                    app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toEndOf="@+id/guidelineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewMessage" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textViewTotalScore"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_text_box_purple"
+                    android:elevation="@dimen/plane_04"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:padding="15dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@android:color/white"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonRateUs"
+                    app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guidelineStart"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    tools:text="@string/total_score_d_d" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonRateUs"
+                    style="@style/AppTheme.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/rate_us"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonReturn"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guidelineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewTotalScore" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textViewExerciseType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="15dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonReturn"
+                    app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toEndOf="@+id/guidelineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonRateUs"
+                    app:textAllCaps="true"
+                    tools:text="Type The Answer" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonReturn"
+                    style="@style/AppTheme.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/return1"
+                    app:backgroundTint="@color/colorBlue"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonHome"
+                    app:layout_constraintEnd_toStartOf="@+id/buttonRetry"
+                    app:layout_constraintStart_toStartOf="@+id/guidelineStart" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonRetry"
+                    style="@style/AppTheme.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/retry"
+                    app:backgroundTint="@color/colorParrot"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonHome"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toEndOf="@+id/buttonReturn" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonHome"
+                    style="@style/AppTheme.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/home"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guidelineStart" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

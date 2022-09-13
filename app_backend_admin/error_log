@@ -1,0 +1,5 @@
+[08-Sep-2020 10:46:31 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_target_lang() in /home/langoalphademo/public_html/indylan/application/models/Admin_model.php on line 98
+[08-Sep-2020 10:46:38 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_target_lang() in /home/langoalphademo/public_html/indylan/application/models/Admin_model.php on line 98
+[08-Sep-2020 10:48:56 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_target_lang() in /home/langoalphademo/public_html/indylan/application/models/Admin_model.php on line 98
+[08-Sep-2020 10:49:54 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_target_lang() in /home/langoalphademo/public_html/indylan/application/models/Admin_model.php on line 98
+[08-Sep-2020 10:50:01 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_target_lang() in /home/langoalphademo/public_html/indylan/application/models/Admin_model.php on line 98

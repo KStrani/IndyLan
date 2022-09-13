@@ -1,0 +1,41 @@
+{
+  "status": 1,
+  "message": "Success",
+  "result": [
+    {
+      "id": "1",
+      "mode_name": "Словарь",
+      "icon": "vocabulary"
+    },
+    {
+      "id": "2",
+      "mode_name": "Диалоги",
+      "icon": "dialogues"
+    },
+    {
+      "id": "3",
+      "mode_name": "Выражения",
+      "icon": "phrases"
+    },
+    {
+      "id": "4",
+      "mode_name": "Грамматика",
+      "icon": "grammar"
+    },
+    {
+      "id": "5",
+      "mode_name": "Культура и история",
+      "icon": "history"
+    },
+    {
+      "id": "6",
+      "mode_name": "Aural Comprehension",
+      "icon": "aural"
+    },
+    {
+      "id": "7",
+      "mode_name": "Test",
+      "icon": "test"
+    }
+  ]
+}

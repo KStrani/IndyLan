@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutExercise"
+        style="@style/AppConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_bottom_strip" />
+
+        <!--<include layout="@layout/layout_error" />
+
+        <include layout="@layout/layout_loading" />-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutTest"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/buttonStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textViewExerciseMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_pink_border"
+                android:clickable="true"
+                android:elevation="@dimen/plane_04"
+                android:focusable="true"
+                android:foreground="@drawable/ripple_foreground"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="15dp"
+                android:stateListAnimator="@animator/selection"
+                android:text="@string/choose_exercise_mode"
+                android:textAppearance="?attr/textAppearanceBody1" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textViewExerciseType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_pink_border"
+                android:clickable="true"
+                android:elevation="@dimen/plane_04"
+                android:focusable="true"
+                android:foreground="@drawable/ripple_foreground"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="15dp"
+                android:stateListAnimator="@animator/selection"
+                android:text="@string/choose_exercise_type"
+                android:textAppearance="?attr/textAppearanceBody1" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textViewNumberOfQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_pink_border"
+                android:clickable="true"
+                android:elevation="@dimen/plane_04"
+                android:focusable="true"
+                android:foreground="@drawable/ripple_foreground"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="15dp"
+                android:stateListAnimator="@animator/selection"
+                android:text="@string/choose_number_of_questions"
+                android:textAppearance="?attr/textAppearanceBody1" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonStart"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:enabled="false"
+            android:text="@string/start"
+            app:layout_constraintBottom_toTopOf="@+id/stripsView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutTest" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,194 @@
+{
+  "status": 1,
+  "message": "Record not found",
+  "message_en": "",
+  "result": [
+    {
+      "exercise_mode_category_id": "95",
+      "image": "animals.jpg",
+      "category_name": "Animals",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/animals.jpg"
+    },
+    {
+      "exercise_mode_category_id": "107",
+      "image": "at_the_pharmacy.jpg",
+      "category_name": "At the pharmacy",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/at_the_pharmacy.jpg"
+    },
+    {
+      "exercise_mode_category_id": "96",
+      "image": "body.jpg",
+      "category_name": "Body",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/body.jpg"
+    },
+    {
+      "exercise_mode_category_id": "97",
+      "image": "clothes.jpg",
+      "category_name": "Clothes",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/clothes.jpg"
+    },
+    {
+      "exercise_mode_category_id": "98",
+      "image": "colours.jpg",
+      "category_name": "Colours",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/colours.jpg"
+    },
+    {
+      "exercise_mode_category_id": "99",
+      "image": "countries.jpg",
+      "category_name": "Countries",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/countries.jpg"
+    },
+    {
+      "exercise_mode_category_id": "113",
+      "image": "employment.jpg",
+      "category_name": "Employment",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/employment.jpg"
+    },
+    {
+      "exercise_mode_category_id": "124",
+      "image": "entertainment.jpg",
+      "category_name": "Entertainment",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/entertainment.jpg"
+    },
+    {
+      "exercise_mode_category_id": "101",
+      "image": "family_members.jpg",
+      "category_name": "Family members",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/family_members.jpg"
+    },
+    {
+      "exercise_mode_category_id": "125",
+      "image": "finland.png",
+      "category_name": "Finnish culture",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/finland.png"
+    },
+    {
+      "exercise_mode_category_id": "122",
+      "image": "grammar.jpg",
+      "category_name": "Grammar",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/grammar.jpg"
+    },
+    {
+      "exercise_mode_category_id": "106",
+      "image": "health_care.jpg",
+      "category_name": "Health care",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/health_care.jpg"
+    },
+    {
+      "exercise_mode_category_id": "117",
+      "image": "holidays_and_festivals.jpg",
+      "category_name": "Holidays and festivals",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/holidays_and_festivals.jpg"
+    },
+    {
+      "exercise_mode_category_id": "104",
+      "image": "home.jpg",
+      "category_name": "Home",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/home.jpg"
+    },
+    {
+      "exercise_mode_category_id": "105",
+      "image": "in_the_office.jpg",
+      "category_name": "In the office",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/in_the_office.jpg"
+    },
+    {
+      "exercise_mode_category_id": "114",
+      "image": "legal_terminology.jpg",
+      "category_name": "Legal terminology",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/legal_terminology.jpg"
+    },
+    {
+      "exercise_mode_category_id": "119",
+      "image": "materials.jpg",
+      "category_name": "Materials",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/materials.jpg"
+    },
+    {
+      "exercise_mode_category_id": "109",
+      "image": "months_and_days.jpg",
+      "category_name": "Months and days",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/months_and_days.jpg"
+    },
+    {
+      "exercise_mode_category_id": "108",
+      "image": "music.jpg",
+      "category_name": "Music",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/music.jpg"
+    },
+    {
+      "exercise_mode_category_id": "103",
+      "image": "numbers.png",
+      "category_name": "Numbers",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/numbers.png"
+    },
+    {
+      "exercise_mode_category_id": "110",
+      "image": "opposites.jpg",
+      "category_name": "Opposites",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/opposites.jpg"
+    },
+    {
+      "exercise_mode_category_id": "123",
+      "image": "personal_characteristics_and_qualities.jpg",
+      "category_name": "Personal characteristics & qualities",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/personal_characteristics_and_qualities.jpg"
+    },
+    {
+      "exercise_mode_category_id": "100",
+      "image": "places.jpg",
+      "category_name": "Places",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/places.jpg"
+    },
+    {
+      "exercise_mode_category_id": "112",
+      "image": "professions.jpg",
+      "category_name": "Professions",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/professions.jpg"
+    },
+    {
+      "exercise_mode_category_id": "115",
+      "image": "shapes.png",
+      "category_name": "Shapes",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/shapes.png"
+    },
+    {
+      "exercise_mode_category_id": "116",
+      "image": "sports.jpg",
+      "category_name": "Sports",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/sports.jpg"
+    },
+    {
+      "exercise_mode_category_id": "102",
+      "image": "supermarket.jpg",
+      "category_name": "Supermarket",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/supermarket.jpg"
+    },
+    {
+      "exercise_mode_category_id": "120",
+      "image": "transport.jpg",
+      "category_name": "Transport",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/transport.jpg"
+    },
+    {
+      "exercise_mode_category_id": "121",
+      "image": "travel.jpg",
+      "category_name": "Travel",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/travel.jpg"
+    },
+    {
+      "exercise_mode_category_id": "111",
+      "image": "weather.jpg",
+      "category_name": "Weather",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/weather.jpg"
+    },
+    {
+      "exercise_mode_category_id": "118",
+      "image": "what_time_is_it.jpg",
+      "category_name": "What time is it?",
+      "image_path": "http://admin.movinglanguages.eu/fi/uploads/what_time_is_it.jpg"
+    }
+  ],
+  "status_message": "OK"
+}

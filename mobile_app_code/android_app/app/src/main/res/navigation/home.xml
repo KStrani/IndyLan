@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navHome"
+    android:label="@string/app_name"
+    app:startDestination="@id/supportLanguageFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.indylan.ui.home.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/toWeb"
+            app:destination="@id/navWeb">
+
+            <argument
+                android:name="title"
+                app:argType="string" />
+
+            <argument
+                android:name="url"
+                app:argType="string" />
+
+        </action>
+
+        <action
+            android:id="@+id/toAboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.indylan.ui.home.AboutUsFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_about_us">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/supportLanguageFragment"
+        android:name="com.indylan.ui.home.SupportLanguageFragment"
+        android:label="@string/target_language"
+        tools:layout="@layout/fragment_support_language">
+
+        <action
+            android:id="@+id/toMenuLanguageFragment"
+            app:destination="@id/menuLanguageFragment" />
+
+        <action
+            android:id="@+id/toTargetLanguageFragment"
+            app:destination="@id/targetLanguageFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuLanguageFragment"
+        android:name="com.indylan.ui.home.MenuLanguageFragment"
+        android:label="@string/menu_language"
+        tools:layout="@layout/fragment_menu_language">
+
+        <action
+            android:id="@+id/toTargetLanguageFragment"
+            app:destination="@id/targetLanguageFragment" />
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/targetLanguageFragment"
+        android:name="com.indylan.ui.home.TargetLanguageFragment"
+        android:label="@string/support_language"
+        tools:layout="@layout/fragment_target_language">
+
+        <action
+            android:id="@+id/toExerciseModeFragment"
+            app:destination="@id/exerciseModeFragment" />
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <!--<argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />-->
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciseModeFragment"
+        android:name="com.indylan.ui.home.ExerciseModeFragment"
+        android:label="@string/select_exercise_mode"
+        tools:layout="@layout/fragment_exercise_mode">
+
+        <action
+            android:id="@+id/toCategoriesFragment"
+            app:destination="@id/categoriesFragment" />
+
+        <action
+            android:id="@+id/toTestModeFragment"
+            app:destination="@id/testModeFragment" />
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/testModeFragment"
+        android:name="com.indylan.ui.home.TestModeFragment"
+        android:label="Test"
+        tools:layout="@layout/fragment_exercise_mode_test">
+
+        <action
+            android:id="@+id/toExerciseStudyFragment"
+            app:destination="@id/exerciseStudyFragment" />
+
+        <action
+            android:id="@+id/toExerciseFragment"
+            app:destination="@id/exerciseFragment" />
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.indylan.ui.home.CategoriesFragment"
+        android:label="@string/select_category"
+        tools:layout="@layout/fragment_categories">
+
+        <action
+            android:id="@+id/toSubcategoriesFragment"
+            app:destination="@id/subcategoriesFragment" />
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="exerciseMode"
+            app:argType="com.indylan.data.model.ExerciseMode" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/subcategoriesFragment"
+        android:name="com.indylan.ui.home.SubCategoriesFragment"
+        android:label="@string/select_a_sub_category"
+        tools:layout="@layout/fragment_categories">
+
+        <action
+            android:id="@+id/toExerciseTypeFragment"
+            app:destination="@id/exerciseTypeFragment" />
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="exerciseMode"
+            app:argType="com.indylan.data.model.ExerciseMode" />
+
+        <argument
+            android:name="category"
+            app:argType="com.indylan.data.model.Category" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciseTypeFragment"
+        android:name="com.indylan.ui.home.ExerciseTypeFragment"
+        android:label="@string/choose_exercise_type"
+        tools:layout="@layout/fragment_exercise_type">
+
+        <action
+            android:id="@+id/toExerciseFragment"
+            app:destination="@id/exerciseFragment" />
+
+        <action
+            android:id="@+id/toExerciseStudyFragment"
+            app:destination="@id/exerciseStudyFragment" />
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="exerciseMode"
+            app:argType="com.indylan.data.model.ExerciseMode" />
+
+        <argument
+            android:name="category"
+            app:argType="com.indylan.data.model.Category" />
+
+        <argument
+            android:name="subcategory"
+            app:argType="com.indylan.data.model.Subcategory" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciseStudyFragment"
+        android:name="com.indylan.ui.home.ExerciseStudyFragment"
+        android:label="ExerciseStudyFragment"
+        tools:layout="@layout/fragment_exercise_study">
+
+        <action
+            android:id="@+id/toExerciseFragment"
+            app:destination="@id/exerciseFragment" />
+
+        <action
+            android:id="@+id/toWeb"
+            app:destination="@id/navWeb">
+
+            <argument
+                android:name="title"
+                app:argType="string" />
+
+            <argument
+                android:name="url"
+                app:argType="string" />
+
+        </action>
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="exerciseMode"
+            app:argType="com.indylan.data.model.ExerciseMode" />
+
+        <argument
+            android:name="category"
+            android:defaultValue="@null"
+            app:argType="com.indylan.data.model.Category"
+            app:nullable="true" />
+
+        <argument
+            android:name="subcategory"
+            android:defaultValue="@null"
+            app:argType="com.indylan.data.model.Subcategory"
+            app:nullable="true" />
+
+        <argument
+            android:name="exerciseType"
+            app:argType="com.indylan.data.model.ExerciseType" />
+
+        <argument
+            android:name="isTestMode"
+            app:argType="boolean" />
+
+        <argument
+            android:name="questions"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.indylan.ui.home.ExerciseFragment"
+        android:label="@string/choose_exercise_type"
+        tools:layout="@layout/fragment_exercise">
+
+        <action
+            android:id="@+id/toTaskCompleteFragment"
+            app:destination="@id/taskCompleteFragment" />
+
+        <action
+            android:id="@+id/toNotesDialogFragment"
+            app:destination="@id/notesDialogFragment" />
+
+        <action
+            android:id="@+id/toKeyboardDialogFragment"
+            app:destination="@id/keyboardDialogFragment" />
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="exerciseMode"
+            app:argType="com.indylan.data.model.ExerciseMode" />
+
+        <argument
+            android:name="category"
+            android:defaultValue="@null"
+            app:argType="com.indylan.data.model.Category"
+            app:nullable="true" />
+
+        <argument
+            android:name="subcategory"
+            android:defaultValue="@null"
+            app:argType="com.indylan.data.model.Subcategory"
+            app:nullable="true" />
+
+        <argument
+            android:name="exerciseType"
+            app:argType="com.indylan.data.model.ExerciseType" />
+
+        <argument
+            android:name="exerciseTextComprehension"
+            android:defaultValue="@null"
+            app:argType="com.indylan.data.model.ExerciseTextComprehension"
+            app:nullable="true" />
+
+        <argument
+            android:name="isTestMode"
+            app:argType="boolean" />
+
+        <argument
+            android:name="questions"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/taskCompleteFragment"
+        android:name="com.indylan.ui.home.TaskCompleteFragment"
+        android:label="@string/congratulations"
+        tools:layout="@layout/fragment_task_complete">
+
+        <argument
+            android:name="supportLanguage"
+            app:argType="com.indylan.data.model.SupportLanguage" />
+
+        <argument
+            android:name="menuLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+        <argument
+            android:name="exerciseMode"
+            app:argType="com.indylan.data.model.ExerciseMode" />
+
+        <argument
+            android:name="category"
+            android:defaultValue="@null"
+            app:argType="com.indylan.data.model.Category"
+            app:nullable="true" />
+
+        <argument
+            android:name="subcategory"
+            android:defaultValue="@null"
+            app:argType="com.indylan.data.model.Subcategory"
+            app:nullable="true" />
+
+        <argument
+            android:name="exerciseType"
+            app:argType="com.indylan.data.model.ExerciseType" />
+
+        <argument
+            android:name="totalScore"
+            app:argType="integer" />
+
+        <argument
+            android:name="myScore"
+            app:argType="integer" />
+
+        <argument
+            android:name="isTestMode"
+            app:argType="boolean" />
+
+    </fragment>
+
+    <include app:graph="@navigation/web" />
+
+    <dialog
+        android:id="@+id/notesDialogFragment"
+        android:name="com.indylan.ui.home.exercise.NotesDialogFragment"
+        android:label="Notes"
+        tools:layout="@layout/dialog_notes">
+
+        <argument
+            android:name="notes"
+            app:argType="string" />
+
+    </dialog>
+
+    <dialog
+        android:id="@+id/keyboardDialogFragment"
+        android:name="com.indylan.ui.home.KeyboardDialogFragment"
+        android:label="Keyboard"
+        tools:layout="@layout/dialog_keyboard">
+
+        <argument
+            android:name="targetLanguage"
+            app:argType="com.indylan.data.model.Language" />
+
+    </dialog>
+
+</navigation>

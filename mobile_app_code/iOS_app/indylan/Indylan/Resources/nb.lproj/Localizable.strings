@@ -1,0 +1,48 @@
+/*
+  Localizable.strings
+  Indylan
+
+  Created by Bhavik Thummar on 10/5/20.
+  Copyright © 2020 Bhavik Thummar. All rights reserved.
+*/
+
+"return"                = "Tilbake";
+"chooseOption"          = "Velg et alternativ";
+"retry"                 = "Forsøk igjen";
+"next"                  = "Neste";
+"continue"              = "Fortsett";
+"correct"               = "Korrekt";
+"typeAnswer"            = "Skriv svaret";
+"showCorrectAnswer"     = "Vis rett svar";
+"choosePicture"         = "Velg bilde";
+"matchWords"            = "Match ordene";
+"tapContinue"           = "Trykk for å fortsette";
+"seeTranslation"        = "Vis oversettelse";
+"chooseMenuLanguage"    = "Velg menyspråk";
+"selectExercisemode"    = "Velg øvelsesmodus";
+"vocabulary"            = "Vokabular";
+"dialogues"             = "Dialoger";
+"phrases"               = "Fraser";
+"chooseCategory"        = "Velg en kategori";
+"chooseSubCategory"     = "Velg en underkategori";
+"chooseExerciseType"    = "Velg en øvelse";
+"greatJob"              = "Godt jobbet!";
+"rateUsNow"             = "Vurder oss nå!";
+"totalScore"            = "Total score";
+"selectTranslation"     = "Velg oversettelse";
+"congratulations"       = "Gratulerer!";
+"taskCompleted"         = "Oppgaven ble godt utført";
+"cultureHistory"        = "Kultur og Historie";
+"grammar"               = "Grammatikk";
+
+"Aural Comprehension" = "Lytteøvelser";
+
+"Scroll down to see all language options" = "Bla ned for å se alle språkalternativene";
+"supportLanguage"       = "SELECT SUPPORT LANGUAGE";
+"targetLanguage"        = "SELECT TARGET LANGUAGE";
+"chooseNoQues"          = "SELECT NUMBER OF QUESTIONS";
+"test"                  = "Test";
+"selectExerciseType"    = "SELECT EXERCISE TYPE";
+"noInternet"            = "No Internet Connection";
+"urlLoadFailed"         = "Failed to load the URL";
+"note"                  = "NOTE";

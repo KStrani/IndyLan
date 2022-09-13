@@ -1,0 +1,137 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'androidx.navigation.safeargs.kotlin'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    defaultConfig {
+        applicationId "com.indylan"
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        buildConfigField 'String', 'PREF_NAME', '"IndyLanPreferences"'
+        buildConfigField 'String', 'DEVICE_TYPE', '"1"'
+        buildConfigField 'Boolean', 'BUTTON_PRESS_EFFECT', 'false'
+        buildConfigField 'Boolean', 'IS_PROTOTYPE', 'false'
+        //resValue 'string', "facebook_app_id", "604207683545732"
+        //resValue 'string', "fb_login_protocol_scheme", "fb604207683545732"
+    }
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            // Do not change this to true, It will crash the app
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        dataBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+    flavorDimensions 'environment'
+    productFlavors {
+        staging {
+            dimension 'environment'
+            buildConfigField 'String', "URL_REST_SERVER", "\"http://lango.alphademo.in/indylan/api/\""
+            buildConfigField 'String', 'URL_PRIVACY_POLICY', '"https://indylan.eu/privacy-policy"'
+            buildConfigField 'String', 'URL_TERMS', '"https://indylan.eu/terms-conditions"'
+        }
+        production {
+            dimension 'environment'
+            buildConfigField 'String', "URL_REST_SERVER", "\"https://admin.indylan.eu/api/\""
+            buildConfigField 'String', 'URL_PRIVACY_POLICY', '"https://indylan.eu/privacy-policy"'
+            buildConfigField 'String', 'URL_TERMS', '"https://indylan.eu/terms-conditions"'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // UI
+    implementation "androidx.core:core-ktx:$rootProject.ktxVersion"
+    implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
+    implementation "androidx.activity:activity-ktx:$rootProject.activityVersion"
+    implementation "androidx.fragment:fragment-ktx:$rootProject.fragmentVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
+    implementation "androidx.viewpager2:viewpager2:$rootProject.viewPagerVersion"
+    implementation "com.google.android.material:material:$rootProject.materialVersion"
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+
+    // Architecture Components
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$rootProject.lifecycleVersion"
+    //testImplementation "androidx.arch.core:core-testing:$rootProject.lifecycleVersion"
+
+    // Google Login
+    //implementation 'com.google.android.gms:play-services-auth:19.0.0'
+
+    // Facebook
+    //implementation 'com.facebook.android:facebook-login:11.0.0'
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$rootProject.navigationVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$rootProject.navigationVersion"
+
+    // Hilt
+    implementation "com.google.dagger:hilt-android:$rootProject.hiltVersion"
+    kapt "com.google.dagger:hilt-android-compiler:$rootProject.hiltVersion"
+
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$rootProject.kotlinVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$rootProject.coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutinesVersion"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$rootProject.glideVersion"
+    kapt "com.github.bumptech.glide:compiler:$rootProject.glideVersion"
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-scalars:$rootProject.retrofitVersion"
+
+    // OkHttp
+    implementation "com.squareup.okhttp3:okhttp:$rootProject.okhttpVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$rootProject.okhttpVersion"
+
+    // Utils
+    implementation "com.jakewharton.timber:timber:$rootProject.timberVersion"
+    implementation "com.google.code.gson:gson:$rootProject.gsonVersion"
+
+    // Localization
+    implementation "com.github.YarikSOffice:lingver:$rootProject.lingverVersion"
+
+    implementation "com.tuyenmonkey:mkloader:1.4.0"
+    implementation "com.github.yalantis:ucrop:2.2.6"
+    implementation "com.github.siyamed:android-shape-imageview:0.9.3@aar"
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

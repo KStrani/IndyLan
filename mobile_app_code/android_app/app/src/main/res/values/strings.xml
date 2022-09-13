@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name" translatable="false">IndyLan</string>
+    <!-- Account : Testing -->
+    <!--<string name="server_client_id" translatable="false">787870335499-e8tv8a1k4ltn585vpjasncuqn2v2m4m9.apps.googleusercontent.com</string>-->
+
+    <string name="return1">Return</string>
+    <string name="retry">Retry</string>
+    <string name="tap_to_continue">Tap to Continue</string>
+
+    <string name="select_exercise_mode">Select Exercise Mode</string>
+    <string name="select_category">Select Category</string>
+    <string name="select_a_sub_category">Select a Subcategory</string>
+    <string name="choose_exercise_type">Choose Exercise Type</string>
+    <string name="show_translation">Show translation</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="total_score_d_d">Total Score: %d/%d</string>
+    <string name="total_score_d">Total Score: %d</string>
+
+    <string name="congratulations">Congratulations</string>
+    <string name="task_completed_successfully">Task completed successfully</string>
+
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+
+    <string name="choose_exercise_mode">Choose Exercise Mode</string>
+    <string name="choose_number_of_questions">Choose Number of Questions</string>
+
+    <string name="support_language">Support Language</string>
+    <string name="target_language">Target Language</string>
+    <string name="menu_language">Menu Language</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+
+    <string name="start">Start</string>
+    <string name="no_data">No data</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+    <string name="audio_not_found">Audio file not found!</string>
+    <string name="show_correct_answer">Show Correct Answer</string>
+
+    <!-- Login / Registration -->
+    <string name="password" translatable="false">Password</string>
+    <string name="forgot_password_q" translatable="false">Forgot password?</string>
+    <string name="forgot_password" translatable="false">Forgot Password</string>
+    <string name="registration" translatable="false">Registration</string>
+    <string name="continue_with_facebook" translatable="false">Continue with Facebook</string>
+    <string name="sign_in_with_google" translatable="false">Sign In with Google</string>
+    <string name="send_my_password" translatable="false">Send My Password</string>
+    <string name="confirm_password" translatable="false">Confirm Password</string>
+    <string name="privacy_policy" translatable="false"><u>Privacy Policy</u></string>
+    <string name="terms_conditions" translatable="false"><u>Terms &amp; Conditions</u></string>
+    <string name="about_us_content" translatable="false">Mobile Virtual Learning for Indigenous Languages\nProject Reference: 2019-1-UK01-KA204-061875</string>
+
+    <!-- Profile -->
+    <string name="profile" translatable="false">Profile</string>
+    <string name="current_password" translatable="false">Current Password</string>
+    <string name="new_password" translatable="false">New Password</string>
+    <string name="change_password_q" translatable="false">Change password?</string>
+    <string name="update" translatable="false">Update</string>
+
+    <!-- Validations -->
+    <string name="validation_empty_email" translatable="false">Please enter email address</string>
+    <string name="validation_invalid_email" translatable="false">Please enter valid email address</string>
+    <string name="validation_empty_password" translatable="false">Please enter password</string>
+    <string name="validation_empty_name" translatable="false">Please enter name</string>
+    <string name="validation_empty_confirm_password" translatable="false">Please confirm password</string>
+    <string name="validation_password_mismatch" translatable="false">Password mismatch</string>
+
+</resources>
